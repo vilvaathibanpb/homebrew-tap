@@ -7,13 +7,15 @@ A simple CLI to remove all the files and folders included in the `.gitignore` fi
 - Supports `glob` and `wildcard` paths in `.gitignore`
 - Pretty fast as its native binary
 - Config support (TODO)
-- Windows support (TODO)
+- winget support (TODO)
 
 Build by [Vilva](https://twitter.com/notifications)
 
 
+
 ## Installation
 
+### MacOS/Linux
 
 Install clean-local with `homebrew`
 
@@ -27,7 +29,13 @@ For `arm64` architecture use the below command
 ```bash
   arch -arm64 brew install clean-local
 ```
-    
+
+### Windows
+
+For Windows, directly download from the [releases](https://github.com/vilvaathibanpb/clean-local/releases).
+
+Winget support will be there soon.
+
 ## Usage
 
 - Run the command `clean-local` in the root of the project. 
